@@ -10,26 +10,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{asset('/')}}website/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/bootstrap/bootstrap.min.css">
     <!-- magnific popup -->
-    <link rel="stylesheet" href="{{asset('/')}}website/plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/magnific-popup/magnific-popup.css">
     <!-- Slick Carousel -->
-    <link rel="stylesheet" href="{{asset('/')}}website/plugins/slick/slick.css">
-    <link rel="stylesheet" href="{{asset('/')}}website/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/slick/slick.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/slick/slick-theme.css">
     <!-- themify icon -->
-    <link rel="stylesheet" href="{{asset('/')}}website/plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/themify-icons/themify-icons.css">
     <!-- animate -->
-    <link rel="stylesheet" href={{asset('/')}}website/plugins/animate/animate.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/animate/animate.css">
     <!-- Aos -->
-    <link rel="stylesheet" href="{{asset('/')}}website/plugins/aos/aos.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/aos/aos.css">
     <!-- swiper -->
-    <link rel="stylesheet" href="{{asset('/')}}website/plugins/swiper/swiper.min.css">
+    <link rel="stylesheet" href="{{ asset('/') }}website/plugins/swiper/swiper.min.css">
     <!-- Stylesheets -->
-    <link href="{{asset('/')}}website/css/style.css" rel="stylesheet">
+    <link href="{{ asset('/') }}website/css/style.css" rel="stylesheet">
 
     <!--Favicon-->
-    <link rel="{{asset('/')}}website/shortcut icon" href="{{asset('/')}}website/images/favicon.png" type="image/x-icon">
-    <link rel="{{asset('/')}}website/icon" href="{{asset('/')}}website/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href={{ asset('/') }}website/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href={{ asset('/') }}website/images/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -38,7 +38,7 @@
 
 <!-- preloader start -->
 <div class="preloader">
-    <img src="{{asset('/')}}website/images/preloader.gif" alt="preloader">
+    <img src="{{ asset('/') }}website/images/preloader.gif" alt="preloader">
 </div>
 <!-- preloader end -->
 
@@ -72,8 +72,8 @@
     <div class="navigation">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="{{route('home')}}">
-                    <img src="{{asset('/')}}website/images/logo.png" alt="logo">
+                <a class="navbar-brand" href="{{ route('home') }}">
+                    <img src="{{ asset('/') }}website/images/logo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -84,20 +84,17 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item dropdown active">
-                            <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                               aria-expanded="false">
+                            <a class="nav-link" href="{{ route('home') }}">
                                 Home
                             </a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="blog-category" role="button"  aria-haspopup="true"
-                               aria-expanded="false">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="{{ route('blog-category') }}">
                                 Blog Category
                             </a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('blog-contact')}}">Contact</a>
+                            <a class="nav-link" href="{{ route('contact-us') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -137,7 +134,7 @@
                 <div class="col-md-4">
                     <div class="mb-5 mb-md-0 text-center text-md-left">
                         <!-- logo -->
-                        <img class="mb-30" src="{{asset('/')}}website/images/logo-footer.png" alt="logo">
+                        <img class="mb-30" src="{{ asset('/') }}website/images/logo-footer.png" alt="logo">
                         <p class="text-white mb-30">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt
                             labore dolore magna aliqua enim.</p>
                         <!-- social icon -->
@@ -260,26 +257,26 @@
 <!-- /footer -->
 
 <!-- jQuery -->
-<script src="{{asset('/')}}website/plugins/jQuery/jquery.min.js"></script>
+<script src="{{ asset('/') }}website/plugins/jQuery/jquery.min.js"></script>
 <!-- Bootstrap JS -->
-<script src="{{asset('/')}}website/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="{{ asset('/') }}website/plugins/bootstrap/bootstrap.min.js"></script>
 <!-- magnific popup -->
-<script src="{{asset('/')}}website/plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
+<script src="{{ asset('/') }}website/plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
 <!-- slick slider -->
-<script src="{{asset('/')}}website/plugins/slick/slick.min.js"></script>
+<script src="{{ asset('/') }}website/plugins/slick/slick.min.js"></script>
 <!-- filter -->
-<script src="{{asset('/')}}website/plugins/filterizr/jquery.filterizr.min.js"></script>
+<script src="{{ asset('/') }}website/plugins/filterizr/jquery.filterizr.min.js"></script>
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-<script  src="{{asset('/')}}website/plugins/google-map/gmap.js"></script>
+<script  src="{{ asset('/') }}website/plugins/google-map/gmap.js"></script>
 <!-- Syo Timer -->
-<script src="{{asset('/')}}website/plugins/syotimer/jquery.syotimer.js"></script>
+<script src="{{ asset('/') }}website/plugins/syotimer/jquery.syotimer.js"></script>
 <!-- aos -->
-<script src="{{asset('/')}}website/plugins/aos/aos.js"></script>
+<script src="{{ asset('/') }}website/plugins/aos/aos.js"></script>
 <!-- swiper -->
-<script src="{{asset('/')}}website/plugins/swiper/swiper.min.js"></script>
+<script src="{{ asset('/') }}website/plugins/swiper/swiper.min.js"></script>
 <!-- Main Script -->
-<script src="{{asset('/')}}website/js/script.js"></script>
+<script src="{{ asset('/') }}website/js/script.js"></script>
 
 </body>
 

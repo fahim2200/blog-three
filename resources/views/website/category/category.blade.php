@@ -1,6 +1,7 @@
 @extends('master.front.master')
+
 @section('body')
-    <section class="page-title overlay" style="background-image: url({{asset('/')}}website/images/background/page-title.jpg);">
+    <section class="page-title overlay" style="background-image: url({{ asset('/') }}website/images/background/page-title.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -24,7 +25,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-1.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-1.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -33,7 +34,7 @@
                                     <p class="mb-0">Nov</p>
                                 </div>
                                 <div class="p-3">
-                                    <a href="{{route('blog-detail')}}" class="h4 font-primary text-dark">Cras sed elit sit amet.</a>
+                                    <a href="{{ route('blog-detail') }}" class="h4 font-primary text-dark">Cras sed elit sit amet.</a>
                                     <p>by Admin</p>
                                 </div>
                             </div>
@@ -44,7 +45,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-2.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-2.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -63,7 +64,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-3.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-3.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -82,7 +83,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-4.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-4.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -101,7 +102,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-5.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-5.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -120,7 +121,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-6.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-6.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -139,7 +140,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-7.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-7.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -158,7 +159,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-8.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-8.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -177,7 +178,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-9.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-9.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -197,6 +198,4 @@
         </div>
     </section>
     <!-- /blog -->
-
-
 @endsection

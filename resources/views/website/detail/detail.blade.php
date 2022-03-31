@@ -1,6 +1,8 @@
 @extends('master.front.master')
+
 @section('body')
-    <section class="page-title overlay" style="background-image: url({{asset('/')}}website/images/background/page-title.jpg);">
+
+    <section class="page-title overlay" style="background-image: url({{ asset('/') }}website/images/background/page-title.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -22,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-8 py-100">
                     <div class="border rounded bg-white">
-                        <img class="img-fluid w-100 rounded-top" src="{{asset('/')}}website/images/blog/blog-single.jpg" alt="blog-image">
+                        <img class="img-fluid w-100 rounded-top" src="{{ asset('/') }}website/images/blog/blog-single.jpg" alt="blog-image">
                         <div class="p-4">
                             <h3>Tips For Business Success 2017: Why To Online</h3>
                             <ul class="list-inline d-block pb-4 border-bottom mb-3">
@@ -65,7 +67,7 @@
                             </p>
                             <div class="row mb-20">
                                 <div class="col-sm-5 pr-sm-0 align-self-center">
-                                    <img class="img-fluid w-100 rounded mr-4 mb-4 mb-sm-0" src="{{asset('/')}}website/images/blog/blog-testimonial.jpg"
+                                    <img class="img-fluid w-100 rounded mr-4 mb-4 mb-sm-0" src="{{ asset('/') }}website/images/blog/blog-testimonial.jpg"
                                          alt="client image">
                                 </div>
                                 <div class="col-sm-7">
@@ -137,7 +139,7 @@
                         <!-- comment item -->
                         <div class="d-flex mb-4">
                             <div class="mr-3">
-                                <img class="img-fluid rounded w-100" src="{{asset('/')}}website/images/blog/comment-1.jpg" alt="user-image">
+                                <img class="img-fluid rounded w-100" src="{{ asset('/') }}website/images/blog/comment-1.jpg" alt="user-image">
                             </div>
                             <div class="border rounded py-3 px-4">
                                 <div class="border-bottom mb-10">
@@ -189,7 +191,7 @@
                         <!-- comment item -->
                         <div class="d-flex mb-4">
                             <div class="mr-3">
-                                <img class="img-fluid rounded w-100" src="{{asset('/')}}website/images/blog/comment-2.jpg" alt="user-image">
+                                <img class="img-fluid rounded w-100" src="{{ asset('/') }}website/images/blog/comment-2.jpg" alt="user-image">
                             </div>
                             <div class="border rounded py-3 px-4">
                                 <div class="border-bottom mb-10">
@@ -301,7 +303,7 @@
                             <div class="d-flex py-3 border-bottom">
                                 <div class="mr-4">
                                     <a href="blog-single.html">
-                                        <img class="rounded" src="{{asset('/')}}website/images/blog/post-thumb-sm-01.jpg" alt="post-thumb">
+                                        <img class="rounded" src="{{ asset('/') }}website/images/blog/post-thumb-sm-01.jpg" alt="post-thumb">
                                     </a>
                                 </div>
                                 <div>
@@ -314,7 +316,7 @@
                             <div class="d-flex py-3 border-bottom">
                                 <div class="mr-4">
                                     <a href="blog-single.html">
-                                        <img class="rounded" src="{{asset('/')}}website/images/blog/post-thumb-sm-02.jpg" alt="post-thumb">
+                                        <img class="rounded" src="{{ asset('/') }}website/images/blog/post-thumb-sm-02.jpg" alt="post-thumb">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -327,7 +329,7 @@
                             <div class="d-flex py-3">
                                 <div class="mr-4">
                                     <a href="blog-single.html">
-                                        <img class="rounded" src="{{asset('/')}}website/images/blog/post-thumb-sm-03.jpg" alt="post-thumb">
+                                        <img class="rounded" src="{{ asset('/') }}website/images/blog/post-thumb-sm-03.jpg" alt="post-thumb">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -377,4 +379,5 @@
         </div>
     </section>
     <!-- /blog-single -->
+
 @endsection

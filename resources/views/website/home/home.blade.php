@@ -1,8 +1,9 @@
 @extends('master.front.master')
+
 @section('body')
     <section>
         <div class="hero-slider position-relative">
-            <div class="hero-slider-item py-160" style="background-image: url({{asset('/')}}website/images/banner/banner-1.jpg);"
+            <div class="hero-slider-item py-160" style="background-image: url({{ asset('/') }}website/images/banner/banner-1.jpg);"
                  data-icon="ti-comments" data-text="Consultation">
                 <div class="container">
                     <div class="row">
@@ -23,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-slider-item py-160" style="background-image: url({{asset('/')}}website/images/banner/banner-2.jpg);"
+            <div class="hero-slider-item py-160" style="background-image: url({{ asset('/') }}website/images/banner/banner-2.jpg);"
                  data-icon="ti-bar-chart" data-text="Marketting">
                 <div class="container">
                     <div class="row">
@@ -44,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-slider-item py-160" style="background-image: url({{asset('/')}}website/images/banner/banner-3.jpg);" data-icon="ti-money"
+            <div class="hero-slider-item py-160" style="background-image: url({{ asset('/') }}website/images/banner/banner-3.jpg);" data-icon="ti-money"
                  data-text="Finance">
                 <div class="container">
                     <div class="row">
@@ -65,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-slider-item py-160" style="background-image: url({{asset('/')}}website/images/banner/banner-4.jpg);"
+            <div class="hero-slider-item py-160" style="background-image: url({{ asset('/') }}website/images/banner/banner-4.jpg);"
                  data-icon="ti-package" data-text="Human Resources">
                 <div class="container">
                     <div class="row">
@@ -102,7 +103,7 @@
                     <div class="card text-center">
                         <h4 class="card-title pt-3">Business Consulting</h4>
                         <div class="card-img-wrapper">
-                            <img class="card-img-top rounded-0" src="{{asset('/')}}website/images/service/service-1.jpg" alt="service-image">
+                            <img class="card-img-top rounded-0" src="{{ asset('/') }}website/images/service/service-1.jpg" alt="service-image">
                         </div>
                         <div class="card-body p-0">
                             <i class="square-icon translateY-33 rounded ti-bar-chart"></i>
@@ -119,7 +120,7 @@
                     <div class="card text-center">
                         <h4 class="card-title pt-3">Valuable Idea</h4>
                         <div class="card-img-wrapper">
-                            <img class="card-img-top rounded-0" src="{{asset('/')}}website/images/service/service-2.jpg" alt="service-image">
+                            <img class="card-img-top rounded-0" src="{{ asset('/') }}website/images/service/service-2.jpg" alt="service-image">
                         </div>
                         <div class="card-body p-0">
                             <i class="square-icon translateY-33 rounded ti-thought"></i>
@@ -136,7 +137,7 @@
                     <div class="card text-center">
                         <h4 class="card-title pt-3">Market Strategy</h4>
                         <div class="card-img-wrapper">
-                            <img class="card-img-top rounded-0" src="{{asset('/')}}website/images/service/service-3.jpg" alt="service-image">
+                            <img class="card-img-top rounded-0" src="{{ asset('/') }}website/images/service/service-3.jpg" alt="service-image">
                         </div>
                         <div class="card-body p-0">
                             <i class="square-icon translateY-33 rounded ti-server"></i>
@@ -152,7 +153,7 @@
         </div>
     </section>
 
-    <section class="about section-sm overlay" style="background-image: url({{asset('/')}}website/{{asset('/')}}website/images/background/about-bg.jpg);">
+    <section class="about section-sm overlay" style="background-image: url({{ asset('/') }}website/images/background/about-bg.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 ml-auto">
@@ -292,9 +293,9 @@
             <div class="row work-slider">
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-1.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-1.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/{{asset('/')}}website/images/works/work-1.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-1.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -304,9 +305,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-2.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-2.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/{{asset('/')}}website/images/works/work-2.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-2.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -316,9 +317,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-3.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-3.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/{{asset('/')}}website/images/works/work-3.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-3.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -328,9 +329,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-4.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-4.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/{{asset('/')}}website/images/works/work-4.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-4.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -340,9 +341,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-1.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-1.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-1.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-1.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -352,9 +353,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-2.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-2.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-2.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-2.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -364,9 +365,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-3.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-3.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-3.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-3.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -376,9 +377,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-4.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-4.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-4.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-4.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -388,9 +389,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-1.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-1.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-1.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-1.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -400,9 +401,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-2.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-2.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-2.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-2.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -412,9 +413,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-3.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-3.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-3.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-3.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -424,9 +425,9 @@
                 </div>
                 <div class="col-lg-3 px-0">
                     <div class="work-slider-image">
-                        <img class="img-fluid w-100" src="{{asset('/')}}website/images/works/work-4.jpg" alt="work-image">
+                        <img class="img-fluid w-100" src="{{ asset('/') }}website/images/works/work-4.jpg" alt="work-image">
                         <div class="image-overlay">
-                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{asset('/')}}website/images/works/work-4.jpg">
+                            <a class="popup-image" data-effect="mfp-zoom-in" href="{{ asset('/') }}website/images/works/work-4.jpg">
                                 <i class="ti-search"></i>
                             </a>
                             <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
@@ -508,7 +509,7 @@
                 </div>
                 <!-- chart -->
                 <div class="col-lg-6">
-                    <img src="{{asset('/')}}website/images/chart.png" alt="chart" class="img-fluid w-100">
+                    <img src="{{ asset('/') }}website/images/chart.png" alt="chart" class="img-fluid w-100">
                 </div>
             </div>
         </div>
@@ -516,7 +517,7 @@
     <!-- /mission -->
 
     <!-- promo-video -->
-    <section class="promo-video overlay section" style="background-image: url({{asset('/')}}website/images/background/promo-video.jpg);">
+    <section class="promo-video overlay section" style="background-image: url({{ asset('/') }}website/images/background/promo-video.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -543,7 +544,7 @@
                     <h2 class="section-title section-title-border"> What client Say </h2>
                 </div>
                 <div class="col-lg-5 col-md-5 pr-0 align-self-center">
-                    <img class="img-fluid w-100" src="{{asset('/')}}website/images/client.png" alt="clients-image">
+                    <img class="img-fluid w-100" src="{{ asset('/') }}website/images/client.png" alt="clients-image">
                 </div>
                 <div class="col-lg-7 col-md-7 align-self-center pl-0">
                     <div class="testimonial-slider p-5">
@@ -575,7 +576,7 @@
     </section>
     <!-- /testimonial -->
 
-    <section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url({{asset('/')}}website/images/background/cta.jpg);">
+    <section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url({{ asset('/') }}website/images/background/cta.jpg);">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-6">
@@ -600,7 +601,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-1.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-1.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -621,7 +622,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                     <div class="card">
                         <div class="card-img-wrapper overlay-rounded-top">
-                            <img class="card-img-top" src="{{asset('/')}}website/images/blog/blog-2.jpg" alt="blog-thumbnail">
+                            <img class="card-img-top" src="{{ asset('/') }}website/images/blog/blog-2.jpg" alt="blog-thumbnail">
                         </div>
                         <div class="card-body p-0">
                             <div class="d-flex">
@@ -686,25 +687,25 @@
         <div class="container">
             <div class="client-logo-slider align-self-center">
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-1.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-1.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-2.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-2.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-3.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-3.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-4.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-4.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-5.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-5.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-1.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-1.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-2.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-2.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-3.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-3.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-4.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-4.png" alt="client-logo"></a>
                 <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset"
-                                                                                 src="{{asset('/')}}website/images/client-logo/client-logo-5.png" alt="client-logo"></a>
+                                                                                 src="{{ asset('/') }}website/images/client-logo/client-logo-5.png" alt="client-logo"></a>
             </div>
         </div>
     </section>

@@ -1,14 +1,14 @@
 @extends('master.front.master')
-@section('body')
 
-    <section class="page-title overlay" style="background-image: url({{asset('/')}}website/images/background/page-title.jpg);">
+@section('body')
+    <section class="page-title overlay" style="background-image: url({{ asset('/') }}website/images/background/page-title.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="text-white font-weight-bold">Contact Us</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="{{route('home')}}">Home</a>
+                            <a href="{{ route('home') }}">Home</a>
                         </li>
                         <li>Contact Us</li>
                     </ol>
@@ -79,6 +79,6 @@
 
     <section class="map">
         <!-- Google Map -->
-        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6192151721084!2d90.40685251498157!3d23.76095458458414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b881bea1f94d%3A0x7357ac0abfa7241a!2zSGF0aXJqaGVlbCBCcmlkZ2UsIOCmouCmvuCmleCmvg!5e0!3m2!1sbn!2sbd!4v1648532656750!5m2!1sbn!2sbd" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9028600385536!2d90.39122601445585!3d23.750843194677536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bd535e2469%3A0xd144b1293fb0f720!2sBDBL%20Bhaban%2C%2012%2C%20Kazi%20Nazrul%20Islam%20Ave%2C%20Dhaka%201215!5e0!3m2!1sen!2sbd!4v1648532533121!5m2!1sen!2sbd" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </section>
 @endsection
