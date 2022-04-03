@@ -22,6 +22,7 @@ class Blog extends Model
         self::$imageName = self::$image->getClientOriginalName();
         self::$directory = 'blog-images/';
         self::$image->move(self::$directory, self::$imageName);
+        self::$imageUrl = self::$directory. self::$imageName;
         return self::$directory.self::$imageName;
     }
 

@@ -6,6 +6,7 @@ use App\Models\Blog;
 use App\Models\Category;
 use Illuminate\Http\Request;
 
+
 class BlogController extends Controller
 {
     private $blog;
@@ -20,12 +21,17 @@ class BlogController extends Controller
     public function create(Request $request){
 
         Blog::newBlog($request);
-        return redirect('/add-blog')->with('message','Blog Add Successfully');
+        return redirect('/add-blog')->with('message','Blog Info Created Successfully');
     }
     public function manage(){
 
         $this->blogs = Blog::orderBy('id','desc')->get();
         return view('admin.blog.manage',['blogs' => $this->blogs]);
+    }
+    public function detail($id)
+    {
+        $this->blogs = Blog::find($id);
+        return view('admin.blog.detail',['blog' => $this->blogs]);
     }
     public function edit($id){
 
